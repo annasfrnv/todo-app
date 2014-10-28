@@ -1,0 +1,190 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+html {
+	font-family: sans-serif;
+	position: relative;
+    min-height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	margin: 0 0 50px;
+	background: url(../img/1.jpg) no-repeat; 
+	background-size: cover;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 0.3em 0 0 0;
+}
+
+h2 {
+	font-size: 3em;
+	margin-top: 0.2em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+}
+
+h5 {
+	margin-top: 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 20px;
+
+}
+
+ul li {
+	font-size: 1.3em;
+	list-style: none;
+	line-height: 1.3em;
+
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#main {
+	font-size: 20px;
+	text-align: center;
+}
+
+#weather {
+	text-align: right;
+	padding: 1em;
+}
+
+
+
+#greet-user {
+	width: 100%;
+	display: inline-block;
+
+}
+
+#greet-user h2 {
+	display: inline-block;
+	width: 35%;
+}
+
+#userName {
+	width: 25%;
+	font-size: 3em;
+	font-weight: bold;
+	border-style: none;
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	background-color: transparent;
+	text-align: center;
+}
+
+#userName:focus,
+#taskInput:focus {
+	outline: none;
+}
+
+#task-assign {
+	margin: 2em 20%;
+	background-color: rgba(0,0,0, 0.5);
+	padding: 2em;
+}
+
+#taskInput {
+	margin: 0 10% 3% 10%;
+	width: 80%;
+	font-size: 1.5em;
+	font-weight: normal;
+	border-style: none;
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	background-color: transparent;
+}
+
+.container {
+	margin: 0 15%;
+}
+
+#due-date,
+#assign-to {
+	display: inline-block;
+}
+
+#due-date input {
+	width: 60%;
+	margin-left: 12px;
+}
+
+#assign-to select {
+	margin-left: 12px;
+}
+
+#due-date {
+	margin: 0 5%;
+}
+
+#due-date h5,
+#due-date input,
+#assign-to h5,
+#assign-to select {
+	display: inline-block;
+}
+
+
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.edit-btn,
+.delete-btn {
+	font-size: 0.8em;
+	color: #bdc3c7;
+}
+
+.edit-btn {
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.edit-btn:hover {
+	color: #16a085;
+}
+
+.delete-btn:hover {
+	color: #e74c3c;
+}
+
+.options {
+	margin-left: 10px;
+	font-size: 0.8em;
+	font-style: italic;
+	color: #e74f40;
+}
+
+
+
+
+

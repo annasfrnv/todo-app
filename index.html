@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="eng">
+	<meta charset="UTF-8">
+
+	<title>To Do</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	
+</head>
+<body>
+	<aside id="weather">
+		<img src="" alt="">
+		<span id="currentTemp"></span>
+		<span>TORONTO</span>
+	</aside>
+	<header id="main">
+		<h1 id="time">01:25:16</h1>
+		<section id="greet-user">
+			<h2 id="greet"></h2>
+			<input id="userName" type="text">
+		</section>
+	</header>	
+
+	<section id="task-assign">
+		<h3>What are your tasks for today?</h3>
+		<input type="text" id="taskInput">
+
+		<div class="container">
+			<section id="due-date">
+				<h5>Due date</h5>
+				<input id="calendar" type="date">
+			</section>
+
+			<section id="assign-to">
+				<h5>Assign To</h5>
+				<select id="assignees">
+					<option>me</option>
+					<option>Tom</option>
+					<option>Shawn</option>
+				</select>
+			</section>
+		</div>
+		<ul id="taskList"></ul>
+	</section>
+	
+	
+	<script type="text/javascript" src="js/time.js"></script>
+	<script type="text/javascript" src="js/weather.js"></script>
+	<script type="text/javascript" src="js/name.js"></script>
+	<script type="text/javascript" src="js/tasks.js"></script>
+
+</body>
+</html>
